@@ -28,7 +28,6 @@ let generateMatrix = function(n) {
         }
         startRowIndex++
         for (let k = startRowIndex; k <= endRowIndex; k++) {
-            console.log(startRowIndex)
             matrix[k][endColIndex] = start
             start++
         }
@@ -40,7 +39,6 @@ let generateMatrix = function(n) {
         endRowIndex--
         for (let p = endRowIndex; p >= startRowIndex; p--) {
             matrix[p][startColIndex] = start
-            console.log(start)
             start++
         }
         startColIndex++
