@@ -40,11 +40,11 @@
 	 *     this.left = this.right = null;
 	 * }
 	 */
-	/**
-	 * @param {TreeNode} p
-	 * @param {TreeNode} q
-	 * @return {boolean}
-	 */
+/**
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
+ */
 
 let isSameTree = function(p, q) {
   if (!p && !q) return true
